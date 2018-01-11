@@ -1,0 +1,228 @@
+/* Common Area */
+h1 {
+  
+}
+
+h2 {
+  
+}
+
+h3 {
+  font-family: "Nanum Myeongjo";
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-family: "Nanum Myeongjo";
+  font-weight: bold;
+}
+
+p {
+  font-family: "Nanum Gothic";
+  font-size: 14px;
+}
+
+/*
+section {
+  padding: 20px;
+  border: 1px solid;
+  border-top: 0px;
+  border-bottom: 1px;
+  border-left: 0px;
+  border-right: 0px;
+  border-style: dotted;
+}
+*/
+.bg-light {
+  background-color: #f8f8f7;
+}
+
+/* Header Area: GNB..*/
+#header {
+	background: #121212;
+}
+
+#gnb {
+	max-width: 1200px;
+	margin: 0 auto;
+	background-image: none;
+	background-color: transparent;
+	border: none;
+}
+
+#gnb .nav.navbar-nav a, #gnb a.navbar-brand {
+	font-family: "Nanum Myeongjo";
+	line-height: 56px;
+}
+
+#gnb .nav.navbar-nav a {
+	color: #ccc;
+}
+
+#gnb a.navbar-brand {
+	color: #eee;
+	font-weight: bold;
+	font-spacing: 1px;
+}
+
+@media (max-width:768px) {
+	#gnb a.navbar-brand {
+		line-height: initial;
+	}
+}
+
+/* Body Area: Contents..*/
+.row {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.jumbotron {
+	width: 100%;
+	background-image: url("../images/main.jpg");
+	background-size: cover;
+	padding: 0;
+  padding-top: 56.25%;
+	position: relative;
+  margin-bottom: 0;
+}
+
+.box-16by9 {
+	width: 100%;
+	background-size: cover;
+	padding: 0;
+  padding-top: 56.25%;
+}
+
+.box-1by1 {
+	width: 100%;
+	background-size: cover;
+	padding: 0;
+  padding-top: 100%;
+}
+
+.box-4by3 {
+	width: 100%;
+	background-size: cover;
+	padding: 0;
+  padding-top: 75%;
+}
+
+.box-3by2 {
+	width: 100%;
+	background-size: cover;
+	padding: 0;
+  padding-top: 66.66%;
+}
+
+.jumbotron .jumbotron-body {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+}
+
+.jumbotron .jumbotron-body:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.jumbotron .jumbotron-text {
+	display: inline-block;
+	vertical-align: middle;
+	font-family: "Nanum Myeongjo";
+}
+
+.thumbnail {
+  box-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+.thumbnail .caption {
+  padding: 0px;
+}
+/* Section 1*/
+.container.project {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.container.project .thumbnail {
+  
+}
+
+.container.project .thumbnail > img {
+  float: left;
+  margin-right: 20px;
+}
+
+.container.project .tumbnail> .caption {
+  padding: 4px;
+}
+/* Section 2*/
+.container.contents {
+  max-width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.container.contents .thumbnail {
+  max-width: 240px;
+}
+
+.container.contents .tumbnail> .caption {
+  padding: 0px;
+}
+/* Section 3*/
+.max-width {
+  max-width: 100%!important;
+}
+
+.center-block {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row.nogap {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-bottom: 0px;
+}
+
+.row.nogap > div {
+  padding: 0;
+}
+
+.wfit {
+  width: 100%;
+}
+
+/* Footer Area */
+#footer {
+	margin-top: 0px;
+	background-color: #222;
+	color: #666;
+}
+
+/* ETC elements */
+.p15 {
+	padding: 15px!important;
+}
+
+.p30 {
+	padding-top: 30px;
+}
+
+.p60 {
+	padding: 60px!important;
+}
